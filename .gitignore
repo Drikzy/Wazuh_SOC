@@ -1,0 +1,32 @@
+# Certificats SSL / clés privées (single-node et multi-node)
+single-node/config/wazuh_indexer_ssl_certs/*.pem
+single-node/config/wazuh_indexer_ssl_certs/*.key
+single-node/config/wazuh_indexer_ssl_certs/*.crt
+single-node/config/wazuh_indexer_ssl_certs/*.p12
+multi-node/config/wazuh_indexer_ssl_certs/*.pem
+multi-node/config/wazuh_indexer_ssl_certs/*.key
+multi-node/config/wazuh_indexer_ssl_certs/*.crt
+multi-node/config/wazuh_indexer_ssl_certs/*.p12
+*.pem
+*.key
+*.crt
+*.p12
+
+# Variables d'environnement et secrets locaux (garder .env.example si besoin)
+.env
+*.env
+!.env.example
+*password*
+*secret*
+
+# Logs et données locales
+*.log
+*.log.*
+data/
+logs/
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
