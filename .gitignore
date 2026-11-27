@@ -7,6 +7,7 @@ multi-node/config/wazuh_indexer_ssl_certs/*.pem
 multi-node/config/wazuh_indexer_ssl_certs/*.key
 multi-node/config/wazuh_indexer_ssl_certs/*.crt
 multi-node/config/wazuh_indexer_ssl_certs/*.p12
+single-node/docker-compose.yml
 *.pem
 *.key
 *.crt
